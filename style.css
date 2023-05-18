@@ -1,0 +1,80 @@
+body{
+   background-image: linear-gradient(to right, #212121, #878787,  #212121);
+}
+.TipCalculator {
+  margin: 0 auto;
+  height: 580px;
+  width: 450px;
+  border: 3px solid #989595;
+  border-radius: 10px;
+  background-color: white;
+  border-radius: 20px;
+  font-size: larger;
+}
+
+p {
+  margin-left: 50px;
+  color: darkgoldenrod;
+}
+
+.heading {
+  border-radius: 15px;
+  height: 15vh;
+  font-size: x-large;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #212121;
+}
+.heading h2{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.input1 {
+  position: relative;
+  left: 2%;
+}
+option{
+    color: darkgoldenrod;
+    font-family: poppins
+}
+input {
+  margin: 5px;
+  position: relative;
+  left: 20%;
+  height: 25px;
+  width: 250px;
+  border: 2px solid darkgoldenrod;;
+  border-radius: 10px;
+}
+#selectbox {
+  position: relative;
+  left: 80px;
+  height: 30px;
+  width: 250px;
+  margin: 5px;
+  border: 2px solid darkgoldenrod;;
+  border-radius: 10px;
+}
+.lastSection {
+  text-align: center;
+}
+.share{
+  position: relative;
+  left: 80px;
+}
+button {
+  margin-top: 10px;
+  padding: 8px;
+  border: rgba(53, 238, 29, 0.699);
+  border-radius: 5px;
+  background-color:#212121;
+  color: white;
+  font-family: Arial, Helvetica, sans-serifs;
+  font-size: large;
+  cursor: pointer;
+}
+button:hover {
+  border: rgba(106, 221, 91, 0.699);
+  background-color: rgba(106, 221, 91, 0.699);
+}
